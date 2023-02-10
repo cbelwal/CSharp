@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UHGeneralLib", "UHGeneralLib.csproj", "{E263A605-6311-4A12-BB41-22F84BFAF288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGSIMExLib", "..\TGSIMExLib\TGSIMExLib.csproj", "{E5D4F118-D424-49F5-B966-3062059AB547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UHGeneralLibTest", "UHGeneralLibTest\UHGeneralLibTest.csproj", "{708A7C87-879F-445E-9751-18D7339DD417}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E263A605-6311-4A12-BB41-22F84BFAF288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E263A605-6311-4A12-BB41-22F84BFAF288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E263A605-6311-4A12-BB41-22F84BFAF288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E263A605-6311-4A12-BB41-22F84BFAF288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D4F118-D424-49F5-B966-3062059AB547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D4F118-D424-49F5-B966-3062059AB547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D4F118-D424-49F5-B966-3062059AB547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D4F118-D424-49F5-B966-3062059AB547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708A7C87-879F-445E-9751-18D7339DD417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708A7C87-879F-445E-9751-18D7339DD417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708A7C87-879F-445E-9751-18D7339DD417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708A7C87-879F-445E-9751-18D7339DD417}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

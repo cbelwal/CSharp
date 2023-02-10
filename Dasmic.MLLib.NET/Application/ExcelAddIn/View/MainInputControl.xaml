@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="ExcelAddIn.View.MainInputControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ExcelAddIn.View"
+             xmlns:viewModel="clr-namespace:ExcelAddIn.ViewModel"
+             xmlns:localRes="clr-namespace:ExcelAddIn.Resources"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <TabControl Margin="5,5,5,5">
+            <TabItem Header="{x:Static localRes:FormStrings.TabGeneral}">
+                <Grid>
+                    <GroupBox Header="{x:Static localRes:FormStrings.GroupTraining}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Row="0" Grid.Column="1"                                    
+                                   Content="{x:Static localRes:FormStrings.LabelAllTraining}"
+                                   Margin="5,5,5,5"/>
+                            <TextBox Grid.Row="0" Grid.Column="2" 
+                                Name="textMasterTraining" 
+                                Text ="{Binding CurrentRange,Mode=OneWay}" 
+                                HorizontalAlignment="Stretch"
+                                Margin="5,5,5,5"/>
+                            <Button Grid.Row="0" Grid.Column="3" 
+                                    Name="btnSelectedGrid" 
+                                    Content="{x:Static localRes:FormStrings.LabelAllTraining}" 
+                                    Margin="5,5,5,5"/>
+                            <Label Grid.Row="0" Grid.Column="1" 
+                                   Content="{x:Static localRes:FormStrings.LabelAllTraining}"
+                                   Margin="5,5,5,5"/>
+                            <TextBox Grid.Row="0" Grid.Column="2" 
+                                Name="textTrainingHeader" 
+                                Text ="{Binding CurrentRange,Mode=OneWay}" 
+                                HorizontalAlignment="Stretch"
+                                Margin="5,5,5,5"/>
+                            <Button Grid.Row="0" Grid.Column="3" 
+                                    Name="btnSelectedGrid1" 
+                                    Content="{x:Static localRes:FormStrings.LabelAllTraining}" 
+                                    Margin="5,5,5,5"/>
+                            <Label Grid.Row="0" Grid.Column="1" 
+                                   Name="lblSelectGrid" 
+                                   Content="{x:Static localRes:FormStrings.LabelAllTraining}"
+                                   Margin="5,5,5,5"/>
+                            <TextBox Grid.Row="0" Grid.Column="2" 
+                                Name="textTrainingTarget" 
+                                Text ="{Binding CurrentRange,Mode=OneWay}" 
+                                HorizontalAlignment="Stretch"
+                                Margin="5,5,5,5"/>
+                            <Button Grid.Row="0" Grid.Column="3" 
+                                    Name="btnSelectedGrid2" 
+                                    Content="{x:Static localRes:FormStrings.LabelAllTraining}" 
+                                    Margin="5,5,5,5"/>
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="{x:Static localRes:FormStrings.TabSettings}" />
+        </TabControl>
+    </Grid>
+  
+</UserControl>

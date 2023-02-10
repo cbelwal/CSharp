@@ -1,0 +1,62 @@
+<SmartAssemblyProject ProjectID="{1f9bab3b-a5e2-4b86-bbbd-1b04aedb6c4f}" Version="2.0">
+    <MainAssemblyFileName>..\TestLibUI.exe</MainAssemblyFileName>
+    <Configuration Name="Release">
+        <ApplicationName />
+        <Destination DestinationFileName=".\TestLibUI.exe" />
+        <Assemblies>
+            <Assembly AssemblyName="TGSIMExLib, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+                <Embedding />
+            </Assembly>
+            <Assembly AssemblyName="TestLib, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+                <Embedding />
+            </Assembly>
+            <Assembly AssemblyName="TestLibUI, Culture=neutral, PublicKeyToken=null">
+                <Merging>
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ResourcesPruning />
+                </Merging>
+            </Assembly>
+            <Assembly AssemblyName="UHPeriodLib, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="1">
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                </Merging>
+                <Embedding />
+            </Assembly>
+        </Assemblies>
+        <Options>
+            <Obfuscation FieldsNameMangling="2" NameMangling="2" />
+            <StrongNameSigning Sign="0" />
+            <OtherProtections />
+            <StringsEncoding Encode="0" />
+            <OtherOptimizations />
+            <ExceptionReporting />
+            <Debugging />
+        </Options>
+    </Configuration>
+</SmartAssemblyProject>

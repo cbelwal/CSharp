@@ -1,0 +1,4 @@
+ - Compelte work on FullyConnectedLayer
+ - Add back propagation to pooling layer
+ 
+

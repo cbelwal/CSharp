@@ -1,0 +1,71 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETPortable,Version=v4.5,Profile=Profile111": {
+      "Dasmic.MLLib.Common.Exceptions/1.0.0": {
+        "type": "project"
+      },
+      "Dasmic.Portable.Core/1.0.0": {
+        "type": "project"
+      }
+    }
+  },
+  "libraries": {
+    "Dasmic.MLLib.Common.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../../Common/Dasmic.MLLib.Common.Exceptions/Dasmic.MLLib.Common.Exceptions.csproj",
+      "msbuildProject": "../../Common/Dasmic.MLLib.Common.Exceptions/Dasmic.MLLib.Common.Exceptions.csproj"
+    },
+    "Dasmic.Portable.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Common/Dasmic.Portable.Core/Dasmic.Portable.Core.csproj",
+      "msbuildProject": "../../Common/Dasmic.Portable.Core/Dasmic.Portable.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETPortable,Version=v4.5,Profile=Profile111": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Chaitanya Belwal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "C:\\Dasmic\\Development\\NET\\MLLib.NET\\CodeBase\\Math\\Dasmic.MLLib.Math.Matrix\\Dasmic.MLLib.Math.Matrix.csproj",
+      "projectName": "Dasmic.MLLib.Math.Matrix",
+      "projectPath": "C:\\Dasmic\\Development\\NET\\MLLib.NET\\CodeBase\\Math\\Dasmic.MLLib.Math.Matrix\\Dasmic.MLLib.Math.Matrix.csproj",
+      "projectJsonPath": "C:\\Dasmic\\Development\\NET\\MLLib.NET\\CodeBase\\Math\\Dasmic.MLLib.Math.Matrix\\project.json",
+      "packagesPath": "C:\\Users\\Chaitanya Belwal\\.nuget\\packages\\",
+      "outputPath": "C:\\Dasmic\\Development\\NET\\MLLib.NET\\CodeBase\\Math\\Dasmic.MLLib.Math.Matrix\\obj\\",
+      "projectStyle": "ProjectJson",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Chaitanya Belwal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "portable45-net45+win8+wpa81": {
+          "projectReferences": {
+            "C:\\Dasmic\\Development\\NET\\MLLib.NET\\CodeBase\\Common\\Dasmic.MLLib.Common.Exceptions\\Dasmic.MLLib.Common.Exceptions.csproj": {
+              "projectPath": "C:\\Dasmic\\Development\\NET\\MLLib.NET\\CodeBase\\Common\\Dasmic.MLLib.Common.Exceptions\\Dasmic.MLLib.Common.Exceptions.csproj"
+            },
+            "C:\\Dasmic\\Development\\NET\\MLLib.NET\\CodeBase\\Common\\Dasmic.Portable.Core\\Dasmic.Portable.Core.csproj": {
+              "projectPath": "C:\\Dasmic\\Development\\NET\\MLLib.NET\\CodeBase\\Common\\Dasmic.Portable.Core\\Dasmic.Portable.Core.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "portable45-net45+win8+wpa81": {}
+    }
+  }
+}
