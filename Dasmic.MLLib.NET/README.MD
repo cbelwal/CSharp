@@ -4,13 +4,10 @@ The Dasmic Machine Learning Library has been written purely in C# and does not u
 
 The main code is under the CodeBase folder which is broken up into 4 main folders:
 
-Algorithms    : Algorithms to train the model and do inference
-
-Common        : Shared libraries to deal with Exceptions, Data Management etc.
-
-Math          : Fundamental Mathetical routines dealing with Matrices and Statistics
-
-UserInterface : Future plan to build a UI similar to the Weka toolset
+**Algorithms**    : Algorithms to train the model and do inference
+**Common**        : Shared libraries to deal with Exceptions, Data Management etc.
+**Math**          : Fundamental Mathematical routines dealing with Matrices and Statistics
+**UserInterface** : Future plan to build a UI similar to the Weka toolset
 
 The Algorithms folder has a separate Library (DLL) project for each of the core ML algorithms. For example, a project will exist for Regression, one separte for NN, DecisionTree, DeepLearning etc. Within each of these there is a Model and Build folder. The Build folder includes routines to train the model, while the Model includes the Classes/data structure to persist the model (for use in Transfer Learning) as well as to run it. That way only the Model files are needed for  inference after deployment.
 
