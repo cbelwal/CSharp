@@ -16,7 +16,7 @@ The Algorithms folder has a separate Library (DLL) project for each of the core 
 
 The library structure follows a strict OO approach. Base classes handle the common routines, and Interfaces provide the uniform structure.
 
-# Unit Teats
+# Unit Tests
 
 Each routine in Build folder has a corresponding Unit Test, under the top level UnitTests folder which is structured similar to the CodeBase folder. This uniformity is important and should be maintained for consistency. Currently we are closed to 100% coverage of units but this number should be higher for edge cases, and each numerical routine has several of them.
 
